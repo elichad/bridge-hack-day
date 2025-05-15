@@ -8,7 +8,7 @@ const nextConfig = {
   },
   distDir: "out",
   output: "export",
-  basePath: "",
+  basePath: "/bridge-hack-day",
   assetPrefix: "",
 };
 
