@@ -12,16 +12,27 @@ This repository provides the website for the project.
 To spin this up locally you will need [Docker](https://docs.docker.com/engine/install/).
 
 ## Installation and Local Hosting Instructions
+Git clone this repository
 
-To build locally using docker:
-- `docker build -t uiuxpage . --platform=linux/amd64`
+In ``bridge-hack-day/`` , build locally using docker:
+```
+docker build -t uiuxpage . --platform=linux/amd64
+```
 
 Then spin up the docker server using:
-- `docker run -p 3000:3000 -v ./website/pages:/app/pages -v ./website/public:/app/public uiuxpage`
-or:
-- `docker run -d -p 3000:3000 -v ./website/pages:/app/pages -v ./website/public:/app/public --cidfile uiux_id.txt uiuxpage`
+```
+docker run -p 3000:3000 -v ./website/pages:/app/pages -v ./website/public:/app/public uiuxpage
+```
+
+OR:
+
+```
+docker run -d -p 3000:3000 -v ./website/pages:/app/pages -v ./website/public:/app/public --cidfile uiux_id.txt uiuxpage
+```
 and to shutdown the container afterwards:
-- `docker container stop $(cat uiux_id.txt) && rm uiux_id.txt`
+```
+docker container stop $(cat uiux_id.txt) && rm uiux_id.txt
+```
 
 To access locally hosted webpages use the address `localhost:3000`.
 
