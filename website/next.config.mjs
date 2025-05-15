@@ -9,7 +9,7 @@ const nextConfig = {
   distDir: "out",
   output: "export",
   basePath: "/bridge-hack-day",
-  assetPrefix: "",
+  assetPrefix: "/bridge-hack-day",
 };
 
 const withNextra = nextra({
