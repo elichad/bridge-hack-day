@@ -49,6 +49,6 @@ If you want to help others to properly cite your project, you can creation a cit
 
 ## Licence
 
-Copyright 2025 Research-IT, University of Manchester, UK
+Copyright 2025 Eli Chadwick, Zeynep AKI, Jim Gardner, Douglas Lowe, 
 
-Licensed under [Apache Licence, version 2.0](https://www.apache.org/licenses/LICENSE-2.0). Any contributions received are assumed to be covered by the [Apache Licence 2.0](https://www.apache.org/licenses/LICENSE-2.0#contributions).
+Content licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
