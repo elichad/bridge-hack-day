@@ -8,11 +8,27 @@ Accessibility and inclusive design are very important for software design. We wa
 
 ## Software Requirements
 
-## Installation Instructions
+This repository provides the website for the project.
+To spin this up locally you will need [Docker](https://docs.docker.com/engine/install/).
 
-## Usage Guidelines / Quickstart
+## Installation and Local Hosting Instructions
+
+To run locally using docker:
+- `docker build -t uiuxpage . --platform=linux/amd64`
+- `docker run -p 3000:3000 -v ./website/pages:/app/pages -v ./website/public:/app/public uiuxpage`
+or:
+- `docker run -d -p 3000:3000 -v ./website/pages:/app/pages -v ./website/public:/app/public --cidfile uiux_id.txt uiuxpage`
+and to shutdown the container afterwards:
+- `docker container stop $(cat uiux_id.txt) && rm uiux_id.txt`
+
+To access locally hosted webpages use the address `localhost:3000`.
+
+
 
 ## Contribution Guidelines
+
+To add/edit content, do so with Markdown files in `website/pages/...`
+
 
 ## Licence and Copyright
 
