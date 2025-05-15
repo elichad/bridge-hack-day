@@ -29,6 +29,7 @@ To access locally hosted webpages use the address `localhost:3000`.
 
 To add/edit content, do so with Markdown files in `website/pages/...`
 
+The website is built using [Nextra](https://nextra.site/docs).
 
 ## Licence and Copyright
 
