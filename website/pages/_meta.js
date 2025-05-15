@@ -9,5 +9,9 @@ export default {
       pagination: false,
 
     }
-  }
+  },
+  concepts: "Learn about Concepts",
+  project: "Starting a Project",
+  resources: "Resources for Implementation",
+  evaluate: "Improve/Evaluate my Project"
 }
